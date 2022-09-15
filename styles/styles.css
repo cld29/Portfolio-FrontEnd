@@ -1,0 +1,14 @@
+.html {
+    font-size: 65.2%;
+}
+.navegacion {
+    display: flex;
+}
+.nav-bar{
+    align-items: center;
+}
+.nav-bar > a{
+    margin-left: 1rem;
+    text-decoration: none;    
+
+}
