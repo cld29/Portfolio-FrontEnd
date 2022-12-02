@@ -1,0 +1,123 @@
+/* ESTILOS GLOBALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2, 
+h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+}
+/* fin de globales */
+
+/* navegacion y logo superior */
+.parte-sup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242526;
+    margin: 0;
+}
+
+.logoarg{
+    width: 20rem;
+    height: 11rem;
+    
+}
+
+/* redes sociales y login */
+
+.navegacion{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.login-btn{
+    background: none;
+    color: #ffff;
+    font-weight: bold;    
+    border: 0.1rem solid #00C301;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color: #00AB08;
+}
+.icon {
+    width: 3.5rem;
+    
+}
+.rrss{
+    width: 100%;
+}
+
+/* banner e imagen de perfil */
+.banner{
+    position: relative;
+    margin-bottom: 15rem;
+}
+.bkg{
+    background-size: 100vh;
+}
+
+.perfil{
+    width: 30rem;
+    height: 32rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15rem;
+    left: 1.5rem;    
+}
